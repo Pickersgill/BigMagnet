@@ -1,4 +1,4 @@
-import requests, argparse, os, math, sys, time
+import requests, argparse, os, math, sys, time, json
 
 class AuthException(Exception):
     def __init__(self, message):
@@ -7,11 +7,13 @@ class AuthException(Exception):
 TOKEN_ENV_VARIABLE = "GITHUB_TOKEN"
 
 class Searcher:
-    def __init__(self):
-        if TOKEN_ENV_VARIABLE not in os.environ:
+    def __init__(self, force_auth=True):
+        if TOKEN_ENV_VARIABLE not in os.environ and force_auth:
             raise AuthException(f"No {TOKEN_ENV_VARIABLE} env. variable found. See -h for help.")
-        else:
+        elif force_auth:
             self.token = os.environ[TOKEN_ENV_VARIABLE]
+        else:
+            self.token = None
 
     def search(self, query="language:rust", size=100):
         """
@@ -73,7 +75,8 @@ class Searcher:
 
         """
         req_str = f"https://api.github.com/search/repositories?q={query}&per_page={page_size}&page={page}"
-        res = requests.get(req_str, headers={"Authorization": f"Bearer {self.token}"})
+        header = {"Authorization": f"Bearer {self.token}"} if self.token else {}
+        res = requests.get(req_str, headers=header)
         
         res.raise_for_status() # requests builtin will raise HTTPError if one occured
         return res.json()
@@ -81,19 +84,24 @@ class Searcher:
 
 
 if __name__ == "__main__":
-    s = Searcher()
-    
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--size", help="Number of repositories to find", type=int, default=100, required=True) 
-    parser.add_argument("-f", "--force-noauth", help="Forces execution even without auth token, results in stricter rate limit control", type=bool, default=False) 
+    parser.add_argument("-f", "--force-auth", help="Forces use of a Personal Access Token", type=bool, default=True) 
     parser.add_argument("-l", "--language", help="The language to query for.", type=str, required=True)
-    parser.add_argument("-i", "--licence", help="The license type to query for.", type=str, default="mit")
+    parser.add_argument("-i", "--license", help="The license type to query for.", type=str, default="mit")
     parser.add_argument("-o", "--out", help="File location for dumping request data.", type=str, default="./out.json")
 
     parser.epilog = "For further information, see README."
     args = parser.parse_args()
-
-    results = s.search(query="language:rust+license:mit+is:public", size=0)
     print(args)
+
+    s = Searcher(force_auth=args.force_auth)
+
+    query = f"language:{args.language}+license:{args.license}+is:public"
+    results = s.search(query=query, size=args.size)
+
+    with open(args.out, "w+") as out:
+        out.write(json.dumps(results, indent=4))
+    
     
 
