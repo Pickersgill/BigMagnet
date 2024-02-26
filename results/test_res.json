@@ -1,5 +1,5 @@
 {
-  "total_count": 113444,
+  "total_count": 113447,
   "incomplete_results": false,
   "items": [
     {
@@ -69,16 +69,16 @@
       "releases_url": "https://api.github.com/repos/denoland/deno/releases{/id}",
       "deployments_url": "https://api.github.com/repos/denoland/deno/deployments",
       "created_at": "2018-05-15T01:34:26Z",
-      "updated_at": "2024-02-26T10:58:25Z",
-      "pushed_at": "2024-02-26T11:54:08Z",
+      "updated_at": "2024-02-26T12:25:15Z",
+      "pushed_at": "2024-02-26T11:56:24Z",
       "git_url": "git://github.com/denoland/deno.git",
       "ssh_url": "git@github.com:denoland/deno.git",
       "clone_url": "https://github.com/denoland/deno.git",
       "svn_url": "https://github.com/denoland/deno",
       "homepage": "https://deno.com",
       "size": 112841,
-      "stargazers_count": 92395,
-      "watchers_count": 92395,
+      "stargazers_count": 92396,
+      "watchers_count": 92396,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -110,8 +110,15 @@
       "visibility": "public",
       "forks": 5074,
       "open_issues": 1923,
-      "watchers": 92395,
+      "watchers": 92396,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -181,7 +188,7 @@
       "releases_url": "https://api.github.com/repos/rust-lang/rustlings/releases{/id}",
       "deployments_url": "https://api.github.com/repos/rust-lang/rustlings/deployments",
       "created_at": "2015-09-15T02:25:18Z",
-      "updated_at": "2024-02-26T11:53:34Z",
+      "updated_at": "2024-02-26T12:02:47Z",
       "pushed_at": "2024-02-25T11:12:31Z",
       "git_url": "git://github.com/rust-lang/rustlings.git",
       "ssh_url": "git@github.com:rust-lang/rustlings.git",
@@ -189,8 +196,8 @@
       "svn_url": "https://github.com/rust-lang/rustlings",
       "homepage": "https://rustlings.cool",
       "size": 2896,
-      "stargazers_count": 47215,
-      "watchers_count": 47215,
+      "stargazers_count": 47216,
+      "watchers_count": 47216,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -198,7 +205,7 @@
       "has_wiki": false,
       "has_pages": true,
       "has_discussions": false,
-      "forks_count": 8818,
+      "forks_count": 8819,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -219,10 +226,17 @@
         "rustlings"
       ],
       "visibility": "public",
-      "forks": 8818,
+      "forks": 8819,
       "open_issues": 169,
-      "watchers": 47215,
+      "watchers": 47216,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -293,7 +307,7 @@
       "deployments_url": "https://api.github.com/repos/meilisearch/meilisearch/deployments",
       "created_at": "2018-04-23T11:45:28Z",
       "updated_at": "2024-02-26T11:22:37Z",
-      "pushed_at": "2024-02-26T11:37:35Z",
+      "pushed_at": "2024-02-26T12:20:59Z",
       "git_url": "git://github.com/meilisearch/meilisearch.git",
       "ssh_url": "git@github.com:meilisearch/meilisearch.git",
       "clone_url": "https://github.com/meilisearch/meilisearch.git",
@@ -313,7 +327,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 161,
+      "open_issues_count": 160,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -347,9 +361,16 @@
       ],
       "visibility": "public",
       "forks": 1584,
-      "open_issues": 161,
+      "open_issues": 160,
       "watchers": 41909,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -440,7 +461,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1266,
+      "open_issues_count": 1267,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -457,9 +478,16 @@
       ],
       "visibility": "public",
       "forks": 1518,
-      "open_issues": 1266,
+      "open_issues": 1267,
       "watchers": 29152,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -529,16 +557,16 @@
       "releases_url": "https://api.github.com/repos/pola-rs/polars/releases{/id}",
       "deployments_url": "https://api.github.com/repos/pola-rs/polars/deployments",
       "created_at": "2020-05-13T19:45:33Z",
-      "updated_at": "2024-02-26T11:34:37Z",
-      "pushed_at": "2024-02-26T10:58:12Z",
+      "updated_at": "2024-02-26T12:25:37Z",
+      "pushed_at": "2024-02-26T12:26:43Z",
       "git_url": "git://github.com/pola-rs/polars.git",
       "ssh_url": "git@github.com:pola-rs/polars.git",
       "clone_url": "https://github.com/pola-rs/polars.git",
       "svn_url": "https://github.com/pola-rs/polars",
       "homepage": "https://docs.pola.rs",
       "size": 104751,
-      "stargazers_count": 24502,
-      "watchers_count": 24502,
+      "stargazers_count": 24503,
+      "watchers_count": 24503,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -550,7 +578,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1372,
+      "open_issues_count": 1369,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -573,9 +601,16 @@
       ],
       "visibility": "public",
       "forks": 1441,
-      "open_issues": 1372,
-      "watchers": 24502,
+      "open_issues": 1369,
+      "watchers": 24503,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -645,7 +680,7 @@
       "releases_url": "https://api.github.com/repos/astral-sh/ruff/releases{/id}",
       "deployments_url": "https://api.github.com/repos/astral-sh/ruff/deployments",
       "created_at": "2022-08-09T17:17:44Z",
-      "updated_at": "2024-02-26T11:39:16Z",
+      "updated_at": "2024-02-26T12:28:11Z",
       "pushed_at": "2024-02-26T11:37:24Z",
       "git_url": "git://github.com/astral-sh/ruff.git",
       "ssh_url": "git@github.com:astral-sh/ruff.git",
@@ -653,8 +688,8 @@
       "svn_url": "https://github.com/astral-sh/ruff",
       "homepage": "https://docs.astral.sh/ruff",
       "size": 40283,
-      "stargazers_count": 24214,
-      "watchers_count": 24214,
+      "stargazers_count": 24218,
+      "watchers_count": 24218,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -693,8 +728,15 @@
       "visibility": "public",
       "forks": 771,
       "open_issues": 747,
-      "watchers": 24214,
+      "watchers": 24218,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -808,6 +850,13 @@
       "open_issues": 94,
       "watchers": 23958,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -919,6 +968,13 @@
       "open_issues": 275,
       "watchers": 23956,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -988,7 +1044,7 @@
       "releases_url": "https://api.github.com/repos/ogham/exa/releases{/id}",
       "deployments_url": "https://api.github.com/repos/ogham/exa/deployments",
       "created_at": "2014-05-22T12:45:16Z",
-      "updated_at": "2024-02-26T11:11:25Z",
+      "updated_at": "2024-02-26T12:06:16Z",
       "pushed_at": "2023-11-04T14:04:14Z",
       "git_url": "git://github.com/ogham/exa.git",
       "ssh_url": "git@github.com:ogham/exa.git",
@@ -996,8 +1052,8 @@
       "svn_url": "https://github.com/ogham/exa",
       "homepage": "https://the.exa.website/",
       "size": 3879,
-      "stargazers_count": 23097,
-      "watchers_count": 23097,
+      "stargazers_count": 23098,
+      "watchers_count": 23098,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -1029,8 +1085,15 @@
       "visibility": "public",
       "forks": 665,
       "open_issues": 263,
-      "watchers": 23097,
+      "watchers": 23098,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1149,6 +1212,13 @@
       "open_issues": 237,
       "watchers": 22064,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1218,7 +1288,7 @@
       "releases_url": "https://api.github.com/repos/tw93/Pake/releases{/id}",
       "deployments_url": "https://api.github.com/repos/tw93/Pake/deployments",
       "created_at": "2022-10-14T09:32:57Z",
-      "updated_at": "2024-02-26T11:22:52Z",
+      "updated_at": "2024-02-26T12:20:57Z",
       "pushed_at": "2024-02-23T08:46:18Z",
       "git_url": "git://github.com/tw93/Pake.git",
       "ssh_url": "git@github.com:tw93/Pake.git",
@@ -1226,8 +1296,8 @@
       "svn_url": "https://github.com/tw93/Pake",
       "homepage": "",
       "size": 42333,
-      "stargazers_count": 21917,
-      "watchers_count": 21917,
+      "stargazers_count": 21919,
+      "watchers_count": 21919,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -1274,8 +1344,15 @@
       "visibility": "public",
       "forks": 3190,
       "open_issues": 4,
-      "watchers": 21917,
+      "watchers": 21919,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1392,6 +1469,13 @@
       "open_issues": 274,
       "watchers": 20090,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1505,6 +1589,13 @@
       "open_issues": 14,
       "watchers": 19317,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1614,6 +1705,13 @@
       "open_issues": 631,
       "watchers": 18117,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1731,6 +1829,13 @@
       "open_issues": 395,
       "watchers": 17204,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1841,6 +1946,13 @@
       "open_issues": 174,
       "watchers": 17168,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -1959,6 +2071,13 @@
       "open_issues": 322,
       "watchers": 17110,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2073,6 +2192,13 @@
       "open_issues": 332,
       "watchers": 16495,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2190,6 +2316,13 @@
       "open_issues": 142,
       "watchers": 16494,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2259,7 +2392,7 @@
       "releases_url": "https://api.github.com/repos/zellij-org/zellij/releases{/id}",
       "deployments_url": "https://api.github.com/repos/zellij-org/zellij/deployments",
       "created_at": "2020-09-01T14:04:28Z",
-      "updated_at": "2024-02-26T11:38:31Z",
+      "updated_at": "2024-02-26T12:13:33Z",
       "pushed_at": "2024-02-26T10:20:19Z",
       "git_url": "git://github.com/zellij-org/zellij.git",
       "ssh_url": "git@github.com:zellij-org/zellij.git",
@@ -2267,8 +2400,8 @@
       "svn_url": "https://github.com/zellij-org/zellij",
       "homepage": "https://zellij.dev",
       "size": 93147,
-      "stargazers_count": 16352,
-      "watchers_count": 16352,
+      "stargazers_count": 16355,
+      "watchers_count": 16355,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -2299,8 +2432,15 @@
       "visibility": "public",
       "forks": 513,
       "open_issues": 777,
-      "watchers": 16352,
+      "watchers": 16355,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2416,6 +2556,13 @@
       "open_issues": 290,
       "watchers": 16337,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2485,16 +2632,16 @@
       "releases_url": "https://api.github.com/repos/atuinsh/atuin/releases{/id}",
       "deployments_url": "https://api.github.com/repos/atuinsh/atuin/deployments",
       "created_at": "2020-10-04T23:01:58Z",
-      "updated_at": "2024-02-26T11:51:40Z",
-      "pushed_at": "2024-02-26T11:54:14Z",
+      "updated_at": "2024-02-26T12:16:30Z",
+      "pushed_at": "2024-02-26T12:08:00Z",
       "git_url": "git://github.com/atuinsh/atuin.git",
       "ssh_url": "git@github.com:atuinsh/atuin.git",
       "clone_url": "https://github.com/atuinsh/atuin.git",
       "svn_url": "https://github.com/atuinsh/atuin",
       "homepage": "https://atuin.sh",
       "size": 43666,
-      "stargazers_count": 16307,
-      "watchers_count": 16307,
+      "stargazers_count": 16309,
+      "watchers_count": 16309,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -2506,7 +2653,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 191,
+      "open_issues_count": 179,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -2527,9 +2674,16 @@
       ],
       "visibility": "public",
       "forks": 464,
-      "open_issues": 191,
-      "watchers": 16307,
+      "open_issues": 179,
+      "watchers": 16309,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2599,7 +2753,7 @@
       "releases_url": "https://api.github.com/repos/ajeetdsouza/zoxide/releases{/id}",
       "deployments_url": "https://api.github.com/repos/ajeetdsouza/zoxide/deployments",
       "created_at": "2020-03-05T13:11:40Z",
-      "updated_at": "2024-02-26T11:43:27Z",
+      "updated_at": "2024-02-26T12:27:39Z",
       "pushed_at": "2024-02-23T22:30:38Z",
       "git_url": "git://github.com/ajeetdsouza/zoxide.git",
       "ssh_url": "git@github.com:ajeetdsouza/zoxide.git",
@@ -2607,8 +2761,8 @@
       "svn_url": "https://github.com/ajeetdsouza/zoxide",
       "homepage": "",
       "size": 2433,
-      "stargazers_count": 16251,
-      "watchers_count": 16251,
+      "stargazers_count": 16254,
+      "watchers_count": 16254,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -2656,8 +2810,15 @@
       "visibility": "public",
       "forks": 472,
       "open_issues": 81,
-      "watchers": 16251,
+      "watchers": 16254,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2727,7 +2888,7 @@
       "releases_url": "https://api.github.com/repos/tree-sitter/tree-sitter/releases{/id}",
       "deployments_url": "https://api.github.com/repos/tree-sitter/tree-sitter/deployments",
       "created_at": "2013-11-06T06:16:00Z",
-      "updated_at": "2024-02-26T10:57:44Z",
+      "updated_at": "2024-02-26T12:05:06Z",
       "pushed_at": "2024-02-26T10:51:43Z",
       "git_url": "git://github.com/tree-sitter/tree-sitter.git",
       "ssh_url": "git@github.com:tree-sitter/tree-sitter.git",
@@ -2735,8 +2896,8 @@
       "svn_url": "https://github.com/tree-sitter/tree-sitter",
       "homepage": "https://tree-sitter.github.io",
       "size": 15980,
-      "stargazers_count": 15466,
-      "watchers_count": 15466,
+      "stargazers_count": 15467,
+      "watchers_count": 15467,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -2748,7 +2909,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 360,
+      "open_issues_count": 361,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -2770,9 +2931,16 @@
       ],
       "visibility": "public",
       "forks": 1054,
-      "open_issues": 360,
-      "watchers": 15466,
+      "open_issues": 361,
+      "watchers": 15467,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2889,6 +3057,13 @@
       "open_issues": 82,
       "watchers": 13988,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -2958,7 +3133,7 @@
       "releases_url": "https://api.github.com/repos/hyperium/hyper/releases{/id}",
       "deployments_url": "https://api.github.com/repos/hyperium/hyper/deployments",
       "created_at": "2014-08-30T21:14:33Z",
-      "updated_at": "2024-02-26T09:50:45Z",
+      "updated_at": "2024-02-26T12:16:14Z",
       "pushed_at": "2024-02-25T12:06:25Z",
       "git_url": "git://github.com/hyperium/hyper.git",
       "ssh_url": "git@github.com:hyperium/hyper.git",
@@ -2966,8 +3141,8 @@
       "svn_url": "https://github.com/hyperium/hyper",
       "homepage": "https://hyper.rs",
       "size": 12338,
-      "stargazers_count": 13540,
-      "watchers_count": 13540,
+      "stargazers_count": 13541,
+      "watchers_count": 13541,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -2998,8 +3173,15 @@
       "visibility": "public",
       "forks": 1479,
       "open_issues": 221,
-      "watchers": 13540,
+      "watchers": 13541,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3116,6 +3298,13 @@
       "open_issues": 2,
       "watchers": 12623,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3235,6 +3424,13 @@
       "open_issues": 253,
       "watchers": 12413,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3304,7 +3500,7 @@
       "releases_url": "https://api.github.com/repos/benfred/py-spy/releases{/id}",
       "deployments_url": "https://api.github.com/repos/benfred/py-spy/deployments",
       "created_at": "2018-08-01T02:22:15Z",
-      "updated_at": "2024-02-26T10:48:45Z",
+      "updated_at": "2024-02-26T12:19:09Z",
       "pushed_at": "2024-02-20T15:17:11Z",
       "git_url": "git://github.com/benfred/py-spy.git",
       "ssh_url": "git@github.com:benfred/py-spy.git",
@@ -3312,8 +3508,8 @@
       "svn_url": "https://github.com/benfred/py-spy",
       "homepage": "",
       "size": 2993,
-      "stargazers_count": 11581,
-      "watchers_count": 11581,
+      "stargazers_count": 11582,
+      "watchers_count": 11582,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -3345,8 +3541,15 @@
       "visibility": "public",
       "forks": 380,
       "open_issues": 171,
-      "watchers": 11581,
+      "watchers": 11582,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3460,6 +3663,13 @@
       "open_issues": 219,
       "watchers": 11557,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3572,6 +3782,13 @@
       "open_issues": 0,
       "watchers": 10822,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3641,16 +3858,16 @@
       "releases_url": "https://api.github.com/repos/astral-sh/rye/releases{/id}",
       "deployments_url": "https://api.github.com/repos/astral-sh/rye/deployments",
       "created_at": "2023-04-22T22:23:54Z",
-      "updated_at": "2024-02-26T11:53:16Z",
-      "pushed_at": "2024-02-26T11:14:00Z",
+      "updated_at": "2024-02-26T12:18:54Z",
+      "pushed_at": "2024-02-26T12:27:28Z",
       "git_url": "git://github.com/astral-sh/rye.git",
       "ssh_url": "git@github.com:astral-sh/rye.git",
       "clone_url": "https://github.com/astral-sh/rye.git",
       "svn_url": "https://github.com/astral-sh/rye",
       "homepage": "https://rye-up.com",
       "size": 2833,
-      "stargazers_count": 10167,
-      "watchers_count": 10167,
+      "stargazers_count": 10168,
+      "watchers_count": 10168,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -3662,7 +3879,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 105,
+      "open_issues_count": 104,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -3680,9 +3897,16 @@
       ],
       "visibility": "public",
       "forks": 372,
-      "open_issues": 105,
-      "watchers": 10167,
+      "open_issues": 104,
+      "watchers": 10168,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3799,6 +4023,13 @@
       "open_issues": 28,
       "watchers": 10109,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -3915,6 +4146,13 @@
       "open_issues": 192,
       "watchers": 9838,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4025,6 +4263,13 @@
       "open_issues": 289,
       "watchers": 9526,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4138,6 +4383,13 @@
       "open_issues": 11,
       "watchers": 9265,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4250,6 +4502,13 @@
       "open_issues": 225,
       "watchers": 8953,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4365,6 +4624,13 @@
       "open_issues": 259,
       "watchers": 8876,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4479,6 +4745,13 @@
       "open_issues": 32,
       "watchers": 8843,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4592,6 +4865,13 @@
       "open_issues": 215,
       "watchers": 8631,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4704,6 +4984,13 @@
       "open_issues": 31,
       "watchers": 8518,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4813,6 +5100,13 @@
       "open_issues": 22,
       "watchers": 8507,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -4930,6 +5224,13 @@
       "open_issues": 89,
       "watchers": 8493,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5049,6 +5350,13 @@
       "open_issues": 263,
       "watchers": 8066,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5158,6 +5466,13 @@
       "open_issues": 106,
       "watchers": 7975,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5227,7 +5542,7 @@
       "releases_url": "https://api.github.com/repos/svenstaro/genact/releases{/id}",
       "deployments_url": "https://api.github.com/repos/svenstaro/genact/deployments",
       "created_at": "2011-02-09T08:11:05Z",
-      "updated_at": "2024-02-26T03:16:33Z",
+      "updated_at": "2024-02-26T12:27:58Z",
       "pushed_at": "2024-02-19T04:52:16Z",
       "git_url": "git://github.com/svenstaro/genact.git",
       "ssh_url": "git@github.com:svenstaro/genact.git",
@@ -5235,8 +5550,8 @@
       "svn_url": "https://github.com/svenstaro/genact",
       "homepage": "https://svenstaro.github.io/genact/",
       "size": 11546,
-      "stargazers_count": 7937,
-      "watchers_count": 7937,
+      "stargazers_count": 7938,
+      "watchers_count": 7938,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -5271,8 +5586,15 @@
       "visibility": "public",
       "forks": 358,
       "open_issues": 10,
-      "watchers": 7937,
+      "watchers": 7938,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5342,16 +5664,16 @@
       "releases_url": "https://api.github.com/repos/oxc-project/oxc/releases{/id}",
       "deployments_url": "https://api.github.com/repos/oxc-project/oxc/deployments",
       "created_at": "2023-02-09T05:46:51Z",
-      "updated_at": "2024-02-26T11:53:39Z",
+      "updated_at": "2024-02-26T12:16:07Z",
       "pushed_at": "2024-02-26T11:36:51Z",
       "git_url": "git://github.com/oxc-project/oxc.git",
       "ssh_url": "git@github.com:oxc-project/oxc.git",
       "clone_url": "https://github.com/oxc-project/oxc.git",
       "svn_url": "https://github.com/oxc-project/oxc",
       "homepage": "https://oxc-project.github.io",
-      "size": 177985,
-      "stargazers_count": 7851,
-      "watchers_count": 7851,
+      "size": 177990,
+      "stargazers_count": 7853,
+      "watchers_count": 7853,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -5386,8 +5708,15 @@
       "visibility": "public",
       "forks": 291,
       "open_issues": 83,
-      "watchers": 7851,
+      "watchers": 7853,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5504,6 +5833,13 @@
       "open_issues": 8,
       "watchers": 7777,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5613,6 +5949,13 @@
       "open_issues": 54,
       "watchers": 7640,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5728,6 +6071,13 @@
       "open_issues": 64,
       "watchers": 7568,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5845,6 +6195,13 @@
       "open_issues": 11,
       "watchers": 7145,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -5915,7 +6272,7 @@
       "deployments_url": "https://api.github.com/repos/FyroxEngine/Fyrox/deployments",
       "created_at": "2019-03-30T18:35:37Z",
       "updated_at": "2024-02-26T01:20:53Z",
-      "pushed_at": "2024-02-26T09:43:00Z",
+      "pushed_at": "2024-02-26T12:24:44Z",
       "git_url": "git://github.com/FyroxEngine/Fyrox.git",
       "ssh_url": "git@github.com:FyroxEngine/Fyrox.git",
       "clone_url": "https://github.com/FyroxEngine/Fyrox.git",
@@ -5963,6 +6320,13 @@
       "open_issues": 62,
       "watchers": 7030,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6032,16 +6396,16 @@
       "releases_url": "https://api.github.com/repos/web-infra-dev/rspack/releases{/id}",
       "deployments_url": "https://api.github.com/repos/web-infra-dev/rspack/deployments",
       "created_at": "2022-04-01T08:45:30Z",
-      "updated_at": "2024-02-26T11:48:35Z",
-      "pushed_at": "2024-02-26T10:51:34Z",
+      "updated_at": "2024-02-26T12:10:38Z",
+      "pushed_at": "2024-02-26T12:27:04Z",
       "git_url": "git://github.com/web-infra-dev/rspack.git",
       "ssh_url": "git@github.com:web-infra-dev/rspack.git",
       "clone_url": "https://github.com/web-infra-dev/rspack.git",
       "svn_url": "https://github.com/web-infra-dev/rspack",
       "homepage": "https://rspack.dev",
       "size": 40196,
-      "stargazers_count": 6967,
-      "watchers_count": 6967,
+      "stargazers_count": 6968,
+      "watchers_count": 6968,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -6049,7 +6413,7 @@
       "has_wiki": false,
       "has_pages": true,
       "has_discussions": true,
-      "forks_count": 416,
+      "forks_count": 417,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -6078,10 +6442,17 @@
         "web-performance"
       ],
       "visibility": "public",
-      "forks": 416,
+      "forks": 417,
       "open_issues": 325,
-      "watchers": 6967,
+      "watchers": 6968,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6191,6 +6562,13 @@
       "open_issues": 42,
       "watchers": 6921,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6300,6 +6678,13 @@
       "open_issues": 33,
       "watchers": 6765,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6369,7 +6754,7 @@
       "releases_url": "https://api.github.com/repos/ratatui-org/ratatui/releases{/id}",
       "deployments_url": "https://api.github.com/repos/ratatui-org/ratatui/deployments",
       "created_at": "2023-02-12T21:56:20Z",
-      "updated_at": "2024-02-26T09:57:02Z",
+      "updated_at": "2024-02-26T12:18:57Z",
       "pushed_at": "2024-02-26T09:23:21Z",
       "git_url": "git://github.com/ratatui-org/ratatui.git",
       "ssh_url": "git@github.com:ratatui-org/ratatui.git",
@@ -6377,8 +6762,8 @@
       "svn_url": "https://github.com/ratatui-org/ratatui",
       "homepage": "https://ratatui.rs",
       "size": 72527,
-      "stargazers_count": 6702,
-      "watchers_count": 6702,
+      "stargazers_count": 6703,
+      "watchers_count": 6703,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -6413,8 +6798,15 @@
       "visibility": "public",
       "forks": 217,
       "open_issues": 85,
-      "watchers": 6702,
+      "watchers": 6703,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6533,6 +6925,13 @@
       "open_issues": 28,
       "watchers": 6555,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6645,6 +7044,13 @@
       "open_issues": 130,
       "watchers": 6453,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6764,6 +7170,13 @@
       "open_issues": 120,
       "watchers": 6337,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6877,6 +7290,13 @@
       "open_issues": 100,
       "watchers": 6211,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -6986,6 +7406,13 @@
       "open_issues": 56,
       "watchers": 6121,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7098,6 +7525,13 @@
       "open_issues": 20,
       "watchers": 5960,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7216,6 +7650,13 @@
       "open_issues": 155,
       "watchers": 5755,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7331,6 +7772,13 @@
       "open_issues": 80,
       "watchers": 5449,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7440,6 +7888,13 @@
       "open_issues": 4,
       "watchers": 5335,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7563,6 +8018,13 @@
       "open_issues": 59,
       "watchers": 5273,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7691,6 +8153,13 @@
       "open_issues": 126,
       "watchers": 5241,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7805,6 +8274,13 @@
       "open_issues": 59,
       "watchers": 5182,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -7874,7 +8350,7 @@
       "releases_url": "https://api.github.com/repos/jdx/mise/releases{/id}",
       "deployments_url": "https://api.github.com/repos/jdx/mise/deployments",
       "created_at": "2023-01-09T14:44:21Z",
-      "updated_at": "2024-02-26T10:46:31Z",
+      "updated_at": "2024-02-26T12:19:36Z",
       "pushed_at": "2024-02-24T12:51:31Z",
       "git_url": "git://github.com/jdx/mise.git",
       "ssh_url": "git@github.com:jdx/mise.git",
@@ -7882,8 +8358,8 @@
       "svn_url": "https://github.com/jdx/mise",
       "homepage": "https://mise.jdx.dev",
       "size": 9836,
-      "stargazers_count": 5156,
-      "watchers_count": 5156,
+      "stargazers_count": 5159,
+      "watchers_count": 5159,
       "language": "Rust",
       "has_issues": true,
       "has_projects": false,
@@ -7912,8 +8388,15 @@
       "visibility": "public",
       "forks": 155,
       "open_issues": 101,
-      "watchers": 5156,
+      "watchers": 5159,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8030,6 +8513,13 @@
       "open_issues": 42,
       "watchers": 5100,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8145,6 +8635,13 @@
       "open_issues": 15,
       "watchers": 4983,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8214,7 +8711,7 @@
       "releases_url": "https://api.github.com/repos/tokio-rs/tracing/releases{/id}",
       "deployments_url": "https://api.github.com/repos/tokio-rs/tracing/deployments",
       "created_at": "2019-01-11T18:17:15Z",
-      "updated_at": "2024-02-26T03:48:50Z",
+      "updated_at": "2024-02-26T12:05:35Z",
       "pushed_at": "2024-02-26T09:24:09Z",
       "git_url": "git://github.com/tokio-rs/tracing.git",
       "ssh_url": "git@github.com:tokio-rs/tracing.git",
@@ -8222,8 +8719,8 @@
       "svn_url": "https://github.com/tokio-rs/tracing",
       "homepage": "https://tracing.rs",
       "size": 9742,
-      "stargazers_count": 4768,
-      "watchers_count": 4768,
+      "stargazers_count": 4769,
+      "watchers_count": 4769,
       "language": "Rust",
       "has_issues": true,
       "has_projects": true,
@@ -8259,8 +8756,15 @@
       "visibility": "public",
       "forks": 617,
       "open_issues": 593,
-      "watchers": 4768,
+      "watchers": 4769,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8370,6 +8874,13 @@
       "open_issues": 81,
       "watchers": 4762,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8489,6 +9000,13 @@
       "open_issues": 4,
       "watchers": 4751,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8600,6 +9118,13 @@
       "open_issues": 140,
       "watchers": 4706,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8711,6 +9236,13 @@
       "open_issues": 10,
       "watchers": 4579,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8820,6 +9352,13 @@
       "open_issues": 58,
       "watchers": 4567,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -8934,6 +9473,13 @@
       "open_issues": 34,
       "watchers": 4564,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9045,6 +9591,13 @@
       "open_issues": 88,
       "watchers": 4523,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9131,7 +9684,7 @@
       "has_wiki": true,
       "has_pages": true,
       "has_discussions": true,
-      "forks_count": 369,
+      "forks_count": 367,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -9161,10 +9714,17 @@
         "webassembly"
       ],
       "visibility": "public",
-      "forks": 369,
+      "forks": 367,
       "open_issues": 113,
       "watchers": 4489,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9278,6 +9838,13 @@
       "open_issues": 147,
       "watchers": 4442,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9389,6 +9956,13 @@
       "open_issues": 73,
       "watchers": 4394,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9501,6 +10075,13 @@
       "open_issues": 51,
       "watchers": 4224,
       "default_branch": "dev",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9617,6 +10198,13 @@
       "open_issues": 5,
       "watchers": 4184,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9731,6 +10319,13 @@
       "open_issues": 26,
       "watchers": 4088,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9821,7 +10416,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 200,
+      "open_issues_count": 201,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -9841,9 +10436,16 @@
       ],
       "visibility": "public",
       "forks": 835,
-      "open_issues": 200,
+      "open_issues": 201,
       "watchers": 4051,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -9960,6 +10562,13 @@
       "open_issues": 69,
       "watchers": 4049,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10072,6 +10681,13 @@
       "open_issues": 191,
       "watchers": 4021,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10181,6 +10797,13 @@
       "open_issues": 70,
       "watchers": 3994,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10306,6 +10929,13 @@
       "open_issues": 24,
       "watchers": 3815,
       "default_branch": "dev",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10420,6 +11050,13 @@
       "open_issues": 54,
       "watchers": 3781,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10535,6 +11172,13 @@
       "open_issues": 87,
       "watchers": 3767,
       "default_branch": "develop",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10653,6 +11297,13 @@
       "open_issues": 3,
       "watchers": 3630,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10762,6 +11413,13 @@
       "open_issues": 43,
       "watchers": 3580,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10874,6 +11532,13 @@
       "open_issues": 58,
       "watchers": 3547,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -10988,6 +11653,13 @@
       "open_issues": 124,
       "watchers": 3532,
       "default_branch": "next",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -11105,6 +11777,13 @@
       "open_issues": 36,
       "watchers": 3524,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -11222,6 +11901,13 @@
       "open_issues": 119,
       "watchers": 3397,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -11339,6 +12025,13 @@
       "open_issues": 53,
       "watchers": 3389,
       "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     },
     {
@@ -11448,6 +12141,13 @@
       "open_issues": 41,
       "watchers": 3386,
       "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      },
       "score": 1.0
     }
   ]
