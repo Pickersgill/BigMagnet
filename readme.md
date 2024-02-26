@@ -13,7 +13,7 @@ python3 searcher.py -s 1000 -l rust -i mit -o rust_repos.json -N
 ```
 
 > [!CAUTION]
-> This example uses the `-N` argument to enable execution even without a auth token. This will heavily reduce possible rate limits and thus execution time. See [this section](###Authentication) for help.
+> This example uses the `-N` argument to enable execution even without a auth token. This will heavily reduce possible rate limits and thus execution time. See [the authentication section](###Authentication) for help.
 
 ### Authentication
 
