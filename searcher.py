@@ -7,7 +7,7 @@ class AuthException(Exception):
 TOKEN_ENV_VARIABLE = "GITHUB_TOKEN"
 
 class Searcher:
-    def __init__(self, force_auth=True):
+    def __init__(self, force_auth):
         if TOKEN_ENV_VARIABLE not in os.environ and force_auth:
             raise AuthException(f"No {TOKEN_ENV_VARIABLE} env. variable found. See -h for help.")
         elif force_auth:
@@ -86,7 +86,7 @@ class Searcher:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--size", help="Number of repositories to find", type=int, default=100, required=True) 
-    parser.add_argument("-f", "--force-auth", help="Forces use of a Personal Access Token", default=True, action="store_false") 
+    parser.add_argument("-N", "--no-auth", help="Enables execution without use of a Personal Access Token", default=False, action="store_true") 
     parser.add_argument("-l", "--language", help="The language to query for.", type=str, required=True)
     parser.add_argument("-i", "--license", help="The license type to query for.", type=str, default="mit")
     parser.add_argument("-o", "--out", help="File location for dumping request data.", type=str, default="./out.json")
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     print(args)
 
-    s = Searcher(force_auth=args.force_auth)
+    s = Searcher(force_auth=not args.no_auth)
 
     query = f"language:{args.language}+license:{args.license}+is:public"
     results = s.search(query=query, size=args.size)
