@@ -9,15 +9,15 @@ This is a search tool for the GitHub REST API.
 Example, finding 1000 Rust repositories under the MIT license and write to `rust_repos.json`
 
 ```
-python3 searcher.py -s 1000 -l rust -i mit -o rust_repos.json -f
+python3 searcher.py -s 1000 -l rust -i mit -o rust_repos.json -N
 ```
 
 > [!CAUTION]
-> This example uses the `-f` argument to force execution even without a auth token. This will heavily reduce possible rate limits and thus execution time. See the
+> This example uses the `-N` argument to enable execution even without a auth token. This will heavily reduce possible rate limits and thus execution time. See [this section](###Authentication) for help.
 
 ### Authentication
 
-In order to send authenticated API request the environment varialbe `GITHUB_TOKEN` must be set to a valid Fine-grained Personal Access Token.
+In order to send authenticated API request the environment variable `GITHUB_TOKEN` must be set to a valid Fine-grained Personal Access Token.
 Information on creating one can be found [here](https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 ### Usage
