@@ -86,7 +86,7 @@ class Searcher:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--size", help="Number of repositories to find", type=int, default=100, required=True) 
-    parser.add_argument("-f", "--force-auth", help="Forces use of a Personal Access Token", type=bool, default=True) 
+    parser.add_argument("-f", "--force-auth", help="Forces use of a Personal Access Token", default=True, action="store_false") 
     parser.add_argument("-l", "--language", help="The language to query for.", type=str, required=True)
     parser.add_argument("-i", "--license", help="The license type to query for.", type=str, default="mit")
     parser.add_argument("-o", "--out", help="File location for dumping request data.", type=str, default="./out.json")
