@@ -2,14 +2,15 @@
 
 For when you need a really big magnet.
 
-This is a search tool for the GitHub REST API.
+This is a search and retrieval tool for the GitHub REST API.
 
 ### Quickstart
 
-Example, finding 1000 Rust repositories under the MIT license and write to `rust_repos.json`
+Example, finding 1000 Rust repositories under the MIT license and write to `rust_repos.json` and then downloading the archives...
 
 ```
 python3 searcher.py -s 1000 -l rust -i mit -o rust_repos.json -N
+python3 archive_getter.py -s rust_repos.json -o archive_directory -N
 ```
 
 > [!CAUTION]
@@ -22,7 +23,7 @@ Information on creating one can be found [here](https://docs.github.com/en/enter
 
 ### Usage
 
-For details on how to run the tool use `python3 searcher.py -h`.
+For details on how to run the tool use `python3 [searcher|archive_getter].py -h`.
 
 For information on valid GitHub search queries see [this doc page](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories)
 
