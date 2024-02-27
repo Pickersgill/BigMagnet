@@ -1,6 +1,7 @@
 import requests, sys, os, re, json, argparse
 from concurrent.futures import ThreadPoolExecutor
 from multiprocessing import Process, Pool
+from searcher import AuthException
 
 class PathError(Exception):
     def __init__(self, message):
@@ -34,7 +35,10 @@ class ArchiveGetter:
         sys.stdout.write(f"Fetching {owner}/{repo}\n")
         sys.stdout.flush()
         req_url = f"https://api.github.com/repos/{owner}/{repo}/tarball"
-        headers = {"Authorization": f"Bearer {self.token}"}
+        if self.token:
+            headers = {"Authorization": f"Bearer {self.token}"}
+        else:
+            headers = None
         res = requests.get(req_url, headers=headers, stream=True)
         try:
             res.raise_for_status()
@@ -46,17 +50,24 @@ class ArchiveGetter:
             print(e)
 
 if __name__ == "__main__":
-    # TODO implement option no-auth mode
-    token = os.environ["GITHUB_TOKEN"]
-    ag = ArchiveGetter(token)
-    
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-s", "--source", help="Source file to pull repo data from", required=True, type=str) 
-    parser.add_argument("-o", "--output", help="Output location for fetched archives", required=True, type=str)
-    parser.add_argument("-b", "--batch-size", help="Batch size for multi-processing", default=5, type=int) 
+    parser.add_argument("-s", "--source", help="source file to pull repo data from", required=True, type=str) 
+    parser.add_argument("-o", "--output", help="output location for fetched archives", required=True, type=str)
+    parser.add_argument("-b", "--batch-size", help="batch size for multi-processing", default=5, type=int) 
+    parser.add_argument("-N", "--no-auth", help="enables execution without use of a Personal Access Token", default=False, action="store_true")
     
     args = parser.parse_args()
+    TOKEN_ENV_VARIABLE = "GITHUB_TOKEN"
+    
+    token = None
+    if not args.no_auth:
+        if TOKEN_ENV_VARIABLE not in os.environ:
+            raise AuthException(f"No {TOKEN_ENV_VARIABLE} env. variable found. See -h for help.")
+        else:
+            token = os.environ[TOKEN_ENV_VARIABLE]
+        
+    ag = ArchiveGetter(token)
 
     with open(args.source) as raw:
         data = json.loads(raw.read())
