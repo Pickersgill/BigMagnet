@@ -2,4 +2,7 @@
 *.pyc
 __pycache__/
 results/*
+archives/*
+*.gz
 out.json
+

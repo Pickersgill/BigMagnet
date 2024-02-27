@@ -5,7 +5,7 @@ with open("../results/mini.json") as raw:
 
 out = open("mini.urls", "w+")
 for d in data:
-    out.write(d["url"] + "\n")
+    out.write(d["html_url"] + "\n")
 
 out.close()
 
