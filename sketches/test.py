@@ -1,16 +1,11 @@
 import json
-import sys
 
-with open(sys.argv[1]) as src:
-    data = json.loads(src.read())
+with open("../results/mini.json") as raw:
+    data = json.loads(raw.read())
 
+out = open("mini.urls", "w+")
+for d in data:
+    out.write(d["url"] + "\n")
 
-print(data["total_count"])
-for item in data["items"]:
-    print(item["url"])
-    print(item["license"])
-    #i = data["items"][0][item]
-    #print(i["url"])
-    #print(i["license"])
+out.close()
 
-print(len(data["items"]))
