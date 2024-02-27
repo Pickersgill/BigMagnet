@@ -1,4 +1,4 @@
-import requests, sys, os, re
+import requests, sys, os, re, json
 from concurrent.futures import ThreadPoolExecutor
 from multiprocessing import Process, Pool
 
@@ -10,11 +10,10 @@ class ArchiveGetter:
     def __init__(self, token):
         self.token = token
 
-    def get(self, urls, dest="./archives"):
+    def get(self, repos, dest="./archives"):
         if not os.path.exists(dest):
             raise PathError(dest)
-        jobs = [re.match(r"https://github.com/(.+?)/(.+?)\Z", url).groups() for url in urls] 
-        print(jobs)
+        jobs = repos[:]
         P = 5
 
         while jobs:
@@ -25,7 +24,7 @@ class ArchiveGetter:
             res = pool.starmap(self.fetch_archive, job_params)
     
     def fetch_archive(self, owner, repo, dest):
-        print(owner, repo)
+        print(f"Fetching {owner}/{repo}")
         req_url = f"https://api.github.com/repos/{owner}/{repo}/tarball"
         headers = {"Authorization": f"Bearer {self.token}"}
         res = requests.get(req_url, headers=headers, stream=True)
@@ -42,8 +41,11 @@ if __name__ == "__main__":
     token = os.environ["GITHUB_TOKEN"]
     ag = ArchiveGetter(token)
     url_src = sys.argv[1]
-    with open(url_src) as urls:
-        ag.get([l.strip() for l in urls.readlines()[:]])
+    with open(url_src) as raw:
+        data = json.loads(raw.read())
+        repos = [(d["owner"]["login"], d["name"]) for d in data]
+            
+    ag.get(repos)
         
 
     

@@ -102,6 +102,5 @@ if __name__ == "__main__":
 
     with open(args.out, "w+") as out:
         out.write(json.dumps(results, indent=4))
-    
-    
+
 
