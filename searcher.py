@@ -90,14 +90,15 @@ if __name__ == "__main__":
     parser.add_argument("-l", "--language", help="the language to query for.", type=str, required=True)
     parser.add_argument("-i", "--license", help="the license type to query for.", type=str, default="mit")
     parser.add_argument("-o", "--out", help="file location for dumping request data.", type=str, default="./out.json")
-
+    parser.add_argument("-m", "--max-size-kb", help="ignore repos above this size, KB", type=int, default=1000000)
+    
     parser.epilog = "For further information, see README."
     args = parser.parse_args()
     print(args)
 
     s = Searcher(force_auth=not args.no_auth)
 
-    query = f"language:{args.language}+license:{args.license}+is:public"
+    query = f"language:{args.language}+license:{args.license}+is:public+size:<{args.max_size_kb}"
     results = s.search(query=query, size=args.size)
 
     with open(args.out, "w+") as out:
