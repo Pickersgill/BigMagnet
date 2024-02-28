@@ -1,2 +1,1 @@
-- Update readme for unpacker
 - Implement pipeline script in Python
