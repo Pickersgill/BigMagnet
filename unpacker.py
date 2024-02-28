@@ -18,8 +18,8 @@ class Unpacker:
     
         if delete:
             os.remove(src_path)
-
-        print(f"Extracting content to {dest_path}")
+        
+        return len(members)
 
 
 if __name__ == "__main__":
@@ -51,8 +51,10 @@ if __name__ == "__main__":
     up = Unpacker()
     
     archives = os.listdir(args.src_directory)
-
+    total = 0
     for archive in archives:
-        up.unpack(args.src_directory, archive, args.query, args.output_directory, args.delete)
+        total += up.unpack(args.src_directory, archive, args.query, args.output_directory, args.delete)
+
+    print(f"Extraction complete. Found {total} files matching your query")
     
         
