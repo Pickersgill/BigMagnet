@@ -1,2 +1,2 @@
-Limit results to repos with PRIMARILY Rust code.
-
+- Update readme for unpacker
+- Implement pipeline script in Python
