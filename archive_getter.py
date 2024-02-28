@@ -56,6 +56,7 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output", help="output location for fetched archives", required=True, type=str)
     parser.add_argument("-b", "--batch-size", help="batch size for multi-processing", default=5, type=int) 
     parser.add_argument("-N", "--no-auth", help="enables execution without use of a Personal Access Token", default=False, action="store_true")
+    parser.add_argument("-c", "--create", help="output directory will be created if doesn't exist", default=False, action="store_true")
     
     args = parser.parse_args()
     TOKEN_ENV_VARIABLE = "GITHUB_TOKEN"
@@ -71,10 +72,13 @@ if __name__ == "__main__":
 
     with open(args.source) as raw:
         data = json.loads(raw.read())
-        # TODO filter repos over certain size?
-        data.sort(key=lambda x : x["size"])
+        data.sort(key=lambda x : x["size"]) # Sorting by size reducing wait time between processes
         repos = [(d["owner"]["login"], d["name"]) for d in data]
-            
+    
+    if args.create:
+        if not os.path.exists(args.output):
+            os.mkdir(args.output)
+
     ag.get(repos, dest=args.output, batch_size=args.batch_size)
         
 
